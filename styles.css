@@ -169,3 +169,49 @@ button {
 * {
     border: 1px dotted lightblue;
 }
+
+/* ------------- feet ------------ */
+
+.feet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+
+}
+
+.feetcontainer {
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    gap: 200px;
+    align-items: center;
+}
+.promptbox {
+display: flex;
+flex-direction: column;
+width: 500px;
+
+}
+
+.call {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.prompt {
+    color: white;
+}
+
+.signupB {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+   
+
+}
