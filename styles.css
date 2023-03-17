@@ -2,14 +2,21 @@
 body {
     margin: 0;
     font-family: roboto, sans-serif;   
+
 }
+
+.introalign {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 250px;
+    background-color:  #1F2937;
+}
+
 /* Header */
 
 .hat {
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px 300px;
 }
 
 header {
@@ -19,7 +26,6 @@ header {
     font-family: roboto, sans-serif;   
     display: flex;
     align-items: center;
-    padding: 0px 10px;
  
 }
 
@@ -40,21 +46,16 @@ a {
 
 /* torso */
 
-* {
-    border: 1px solid lightblue;
-}
-
 .torso {
     display: flex;
     justify-content: space-between;
-    padding: 100px 300px;
-    background-color: #1F2937;
+    padding: 100px 0px;
 }
 
 .heroleftbox {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     width: 450px;
 }
 
@@ -69,17 +70,24 @@ a {
     color: #E5E7EB;
 }
 
-
 button {
-    width: 100px;
+    width: 125px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #3882F6;
 }
 
 .heroimage {
-   width: 500px;
-   height: 300px;
-}
-
-.heroimage img {
-    max-height: 100%;
-    max-width: 100%;
+    display: flex;
+    width: 550px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+    color: white;
 }
