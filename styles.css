@@ -1,13 +1,15 @@
 
 body {
     margin: 0;
+    font-family: roboto, sans-serif;   
 }
 /* Header */
+
 .hat {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 300px;
 }
 
 header {
@@ -38,3 +40,46 @@ a {
 
 /* torso */
 
+* {
+    border: 1px solid lightblue;
+}
+
+.torso {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 300px;
+    background-color: #1F2937;
+}
+
+.heroleftbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sidekick {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+button {
+    width: 100px;
+}
+
+.heroimage {
+   width: 500px;
+   height: 300px;
+}
+
+.heroimage img {
+    max-height: 100%;
+    max-width: 100%;
+}
